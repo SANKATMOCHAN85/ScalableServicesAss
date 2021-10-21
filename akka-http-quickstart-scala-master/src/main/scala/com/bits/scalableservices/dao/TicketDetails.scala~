@@ -1,0 +1,15 @@
+package com.bits.scalableservices.dao
+
+import java.time.LocalDate
+
+case class TicketDetails
+(
+  From: String,
+  destination: String,
+  dateOfBooking: LocalDate,
+  dateOfTravel: LocalDate,
+  passengers: String,
+  vehicleName: String,
+  ticketNumber: String,
+  var userId: Int
+)
